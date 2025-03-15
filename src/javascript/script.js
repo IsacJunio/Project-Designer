@@ -12,3 +12,13 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+    const name = form.querySelector('[name="name"]').value;
+    if (name.trim() === '') {
+        alert('Por favor, insira seu nome.');
+        event.preventDefault();
+    }
+});
+

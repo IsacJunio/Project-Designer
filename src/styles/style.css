@@ -299,18 +299,6 @@ section.portfolio .flex {
     position: relative;
 }
 
-.img-port1{
-    width: 350px;
-    height: 460px;
-    background-size: cover;
-    background-position: 50% 0%;
-    transition: 8s;
-    border-radius: 40px;
-    cursor: pointer;
-    position: relative;
-}
-
-
 .img-port1:hover {
     background-position: 100% 100%;
 }
@@ -342,6 +330,7 @@ section.portfolio .flex {
 .overlay:hover{
     opacity: 1;
 }
+
 
 /* ESTILO DO FORMULARIO DE CONTATO*/
 
@@ -421,7 +410,7 @@ footer .line-footer p a {
     color: #FFF;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1000px){
     /* CLASSES GERAIS */
     .flex{
         flex-direction: column;
